@@ -1,6 +1,6 @@
 # NetScope
 
 ```
-$ docker build -t my-python-app .
-$ docker run -it --rm --name my-running-app my-python-app
+$ docker build -t netscope .
+$ docker run -it --rm --network host --name my-netscope netscope
 ```
